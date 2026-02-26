@@ -53,19 +53,6 @@ RESTful API
 
 CustomScrollView & Slivers
 
-🌐 API Layer Example
-Future<List<ArticleModels>> TopGetHeadlines({
-  required String category,
-}) async {
-  final response = await dio.get(
-    'https://newsapi.org/v2/top-headlines',
-    queryParameters: {
-      'country': 'us',
-      'category': category,
-      'apiKey': apiKey,
-    },
-  );
-}
 🎯 Engineering Decisions
 
 Used Slivers for better scroll performance and flexibility.
