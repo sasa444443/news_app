@@ -80,7 +80,7 @@ Used nullable fields in model to prevent runtime crashes.
 🧪 Add Unit Testing
 
 📦 Installation
-git clone https://github.com/MustafaSabry1/news_app.git
+git clone https://github.com/sasa444443/news_app
 cd news_app
 flutter pub get
 flutter run
