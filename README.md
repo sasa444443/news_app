@@ -84,10 +84,4 @@ git clone https://github.com/sasa444443/news_app
 cd news_app
 flutter pub get
 flutter run
-👨‍💻 Author
-
-Mostafa Sabry
-Flutter Developer
-GitHub:https://github.com/sasa444443
-
 Email: promostafa23@gmail.com
