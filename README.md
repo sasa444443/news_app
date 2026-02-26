@@ -1,16 +1,128 @@
-# news_app
+📰 NewsCloud App
 
-A new Flutter project.
+Modern Flutter News Application that displays top headlines by category using real-time API integration.
+Built with clean structure, async data handling, and smooth scrolling UI.
 
-## Getting Started
+📱 Preview
+4
+🚀 Features
 
-This project is a starting point for a Flutter application.
+🗞 Fetch Top Headlines by Category
 
-A few resources to get you started if this is your first Flutter project:
+🌍 Real-time API Integration (NewsAPI)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+📂 Dynamic Categories (Business, Sports, Health, Technology, etc.)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+🔄 FutureBuilder Async Handling
+
+📜 SliverList + CustomScrollView
+
+🎨 Clean & Minimal UI
+
+📱 Fully Responsive Layout
+
+🛠 Tech Stack
+
+Flutter
+
+Dart
+
+Dio (HTTP client)
+
+NewsAPI
+
+Stateless & Stateful Widgets
+
+CustomScrollView + Slivers Architecture
+
+🏗 Project Architecture
+lib/
+│
+├── models/
+│   ├── Article_models.dart
+│   └── Category_model.dart
+│
+├── services/
+│   └── Class_newservices.dart
+│
+├── widget/
+│   ├── NewsListView.dart
+│   ├── NewsListViewBuilder.dart
+│   ├── NewsTile.dart
+│   └── CategoryCard.dart
+│
+├── screens/
+│   ├── Home_page.dart
+│   └── Category_View.dart
+│
+└── main.dart
+🔌 API Integration
+
+Data is fetched using:
+
+https://newsapi.org/v2/top-headlines
+
+Parameters used:
+
+country=us
+
+category
+
+apiKey
+
+Handled with Dio and mapped into ArticleModels.
+
+🧠 Core Concepts Used
+
+FutureBuilder for async UI rendering
+
+SliverList for performance optimization
+
+Clean separation between UI & Services
+
+Model mapping from JSON to Dart Objects
+
+Navigation with MaterialPageRoute
+
+📦 Installation
+git clone https://github.com/MustafaSabry1/news_app.git
+cd news_app
+flutter pub get
+flutter run
+⚠ Important Note
+
+Add your API key inside:
+
+Class_newservices.dart
+
+Replace:
+
+apiKey=YOUR_API_KEY
+📌 Future Improvements
+
+🔐 Add caching (CachedNetworkImage)
+
+🌙 Dark Mode
+
+🧠 State Management (Bloc / Provider)
+
+🔎 Search Feature
+
+📲 Publish on Google Play
+
+🧪 Error UI Improvements
+
+🎯 What This Project Demonstrates
+
+✔ API Integration
+✔ Async Programming
+✔ Clean UI Structure
+✔ Scroll Optimization with Slivers
+✔ Modular Project Structure
+
+👨‍💻 Author
+
+Mostafa Sabry
+GitHub: https://github.com/MustafaSabry1
+
+Email: promostafa23@gmail.com
